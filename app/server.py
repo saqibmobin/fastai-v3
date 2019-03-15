@@ -9,10 +9,10 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://drive.google.com/uc?export=download&id=1MHEJ2f3mQzptkimuoU0NRymFZ9xyFG2g'
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://drive.google.com/uc?export=download&id=12qhIqRE3lTP52WwOCquPCcQpSdZo_okX'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['EOSINOPHIL', 'LYMPHOCYTE', 'MONOCYTE', 'NEUTROPHIL']
 path = Path(__file__).parent
 
 app = Starlette()
